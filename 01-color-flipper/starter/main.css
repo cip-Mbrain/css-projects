@@ -257,3 +257,83 @@ ul {
 Nav
 ===============
 */
+
+nav {
+  background: var(--white);
+  height: 5rem;
+  display: grid;
+  align-items: center;
+  box-shadow: var(--shadow-2);
+}
+
+.nav-center {
+  width: 90vw;
+  max-width: var(--fixed-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-center h4 {
+  margin-bottom: 0;
+  letter-spacing: var(--letterSpacing);
+  color: var(--primary-500);
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  column-gap: 2rem;
+}
+
+nav a {
+  text-transform: capitalize;
+  letter-spacing: var(--letterSpacing);
+  font-weight: 500;
+  color: var(--primary-900);
+  font-size: 1rem;
+  transition: var(--transition);
+}
+
+.main {
+  min-height: calc(100vh - 5rem);
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.container h2 {
+  background: var(--black);
+  color: var(--white);
+  padding: 1rem;
+  letter-spacing: 5px;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+  border-radius: var(--borderRadius);
+}
+
+.color {
+  color: var(--primary-500);
+  text-transform: uppercase;
+}
+
+.btn-hero {
+  padding: 0.7rem 1rem;
+  background: transparent;
+  color: var(--black);
+  border: 2px solid var(--black);
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: var(--transition);
+}
+
+.btn-hero:hover {
+  background: var(--black);
+  color: var(--white);
+}
