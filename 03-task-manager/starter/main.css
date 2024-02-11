@@ -239,7 +239,11 @@ ul {
 .loading {
   margin: 0 auto;
 }
-/* title */
+/*
+=============== 
+Title
+===============
+*/
 
 .title {
   text-align: center;
@@ -298,7 +302,11 @@ Task Manager
   color: var(--green-dark);
 }
 
-/* task section */
+/*
+=============== 
+Task Section
+===============
+*/
 .task-container {
   width: 90vw;
   max-width: var(--fixed-width);
@@ -347,7 +355,11 @@ Task Manager
   visibility: visible;
 }
 
-/*tasks links */
+/*
+=============== 
+Task Links
+===============
+*/
 .tasks-links {
   display: flex;
   gap: 0 0.5rem;
@@ -367,4 +379,55 @@ Task Manager
 }
 .delete-btn {
   color: var(--red-dark);
+}
+
+/*
+=============== 
+Single Task Form
+===============
+*/
+
+.single-task-form {
+  margin-top: 6rem;
+}
+
+.single-task-form h4 {
+  text-align: center;
+}
+
+.single-task-form p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.single-task-form .form-control {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+  justify-items: start;
+  gap: 0 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.single-task-form label {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+.back-link {
+  width: 250px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  background: var(--black);
+  /* margin-top: 5rem; */
+}
+
+.back-link:hover {
+  background: var(--black);
+  opacity: 0.75;
+}
+
+.single-task-form .form-alert {
+  text-align: center;
+  margin-top: 1rem;
 }

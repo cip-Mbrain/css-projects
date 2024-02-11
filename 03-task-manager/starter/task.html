@@ -19,19 +19,20 @@
         <p class="task-edit-id">123456789</p>
       </div>
       <div class="form-control">
-        <label for="" class="form-label"> Name </label>
+        <label for="name" class="form-label">Name</label>
         <input
           type="text"
-          name="name"
-          id=""
-          class="form-input task-edit name"
+          id="name"
+          class="form-input task-edit-name"
           value="walk the dog"
         />
       </div>
       <div class="form-control">
-        <label for="" class="form-label"> Task Id </label>
-        <p class="task-edit-id">123456789</p>
+        <label for="" class="form-label"> Completed </label>
+        <input type="checkbox" name="completed" class="task-edit-completed" />
       </div>
+      <button type="submit" class="btn btn-block task-edit-btn">edit</button>
+      <div class="form-alert text-small">there was an error</div>
     </form>
     <a href="index.html" class="btn back-link">back to task</a>
   </body>
